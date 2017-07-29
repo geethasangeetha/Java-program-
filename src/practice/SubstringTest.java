@@ -4,18 +4,21 @@ public class SubstringTest{
 
 public static void main(String args[]){      
 
-String String = "string isa string"; 
+String String = "string is a string"; 
 
-String s = "blooper";    
+String s = "blooper".substring(1, 4);
+System.out.println(s);
 
-StringBuilder sb = new StringBuilder(s);    
+//StringBuilder sb = new StringBuilder(s);    
 
-sb.append(s.substring(4)).delete(3, 5);    
+//sb.append(s.substring(4)).delete(3, 5);  
 
-System.out.println(sb);
+String.substring(1,4);
+System.out.println(String);
 
 System.out.println(String.substring(3, 6));    
 System.out.println("    hello java guru   ".trim());
+
 }
 
 }

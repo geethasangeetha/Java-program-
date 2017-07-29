@@ -1,15 +1,15 @@
 package practice;
 
- class Test{
-	Test(){
+ class Test1{
+	Test1(){
 		System.out.println("Parent");
 	}
-	Test(int a,int b){
+	Test1(int a,int b){
 		this();
 		System.out.println(a+b);
 	}
 	static void show(){
-		System.out.println("welcome" );
+		System.out.println("welcome1" );
 	}
 	static void show(int a){
 		System.out.println(a);
@@ -25,9 +25,9 @@ public class Inherit extends Test{
 	}
 	
 	public static void main(String []args){
-		show();
-		new Test(13,3);
-		show(100);
+		Test1.show();
+		new Test1(13,3);
+		
 	
 	}
 }

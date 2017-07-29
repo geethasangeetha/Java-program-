@@ -1,10 +1,10 @@
 package practice;
-
 public class BandWidth {
 	
 	    public int available ;
 	    public int getAvailable(){
 	    	System.out.println(available);
+	    
 	        return available;
 	    }
 	    public BandWidth(int quota){

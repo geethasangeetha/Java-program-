@@ -23,9 +23,9 @@ public class ParamTest {
 	  }
 
 	     public static void main(String[] args) {
-
-	      printSum(1, 2);
+	    	// Integer a= Integer.valueOf("12);
+	    printSum(Integer.reverseBytes(123),Integer.reverseBytes(321));
 
 	  }
-
+    
 	}  
